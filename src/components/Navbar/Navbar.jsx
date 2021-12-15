@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.scss";
-import { Person, Mail } from "@material-ui/icons";
+import { Person, Mail, GitHub, LinkedIn, Instagram } from "@material-ui/icons";
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
   return (
@@ -18,23 +18,23 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             <Mail className="icon" />
             <span>trivera51580@gmail.com</span>
           </div>
-          <span>
+          <div className="itemContainer">
             <a href="https://github.com/trivera777">
-              <img src="/assets/github.png" alt="Github"></img>
+              <GitHub className="icon" style={{ fontSize: "45px" }} />
             </a>
-          </span>
-          <span>
+          </div>
+          <div className="itemContainer">
             <a href="https://www.linkedin.com/in/tifannyrivera/">
-              <img src="/assets/linkedin.png" alt="Github"></img>
+              <LinkedIn className="icon" style={{ fontSize: "45px" }} />
             </a>
-          </span>
-          <span>
-            <a href="https://www.linkedin.com/in/tifannyrivera/">
-              <img src="/assets/instagram.png" alt="Github"></img>
+          </div>
+          <div className="itemContainer">
+            <a href="https://www.instagram.com/tifann_y/">
+              <Instagram className="icon" style={{ fontSize: "45px" }} />
             </a>
-          </span>
+          </div>
         </div>
-        <div className="right">
+        <div className="right" style={{float: "right"}}>
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
             <span className="line1"></span>
             <span className="line2"></span>
