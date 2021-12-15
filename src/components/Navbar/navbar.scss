@@ -5,7 +5,7 @@
     height: 70px;
     background-color: #fff;
     color: $mainColor;
-    position:absolute;
+    position: fixed;
     top: 0;
     z-index: 2;
     transition: all 1s ease;
@@ -70,6 +70,13 @@
     &.active {
         background-color: $mainColor;
         color: white;
+
+        .icon {
+            -webkit-filter: invert(1);
+            filter: invert(1);
+            transition: all 1s ease;
+            
+        }
 
         .hamburger {
             span{
