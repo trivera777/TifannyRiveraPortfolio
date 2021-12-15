@@ -34,8 +34,6 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             </a>
           </div>
         </div>
-
-        
         <div className="right" style={{float: "right"}}>
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
             <span className="line1"></span>
