@@ -12,10 +12,6 @@
   .left {
     flex: 0.5;
 
-    @include mobile {
-      align-items: flex-start;
-    }
-
     img {
       border-radius: 50%;
       margin-left: 40px;
@@ -23,29 +19,19 @@
 
       @include mobile {
         height: 100%;
-        width: 80vw;
+        margin: 0;
       }
     }
   }
 
   .right {
     flex: 0.5;
-    background-color: #fff;
-    margin-left: 50px;
-    
-    
 
     .wrapper {
-      width: 100%;
-      height: 100%;
-      padding-left: 50px;
-      display: flex;
-      flex-direction: column;
       justify-content: center;
 
       @include mobile {
-        padding-left: 0;
-        align-items: center;
+        justify-content: center;
       }
 
       h1 {
@@ -80,7 +66,7 @@
           animation: arrowBlink 2s infinite;
 
           @include mobile {
-           display: none;
+            display: none;
           }
         }
 
