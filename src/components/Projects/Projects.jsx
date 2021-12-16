@@ -14,10 +14,10 @@ export default function Projects(){
                     <img src="./assets/np.png" alt="National Parks Day Trip Planner"></img>
                     <h3>National Parks Day Trip Planner</h3>
                 </div>
-                <div className="item">
+                {/* <div className="item">
                     <img src="./assets/merakioasis.png" alt="Meraki Oasis"></img>
                     <h3>Meraki Oasis</h3>
-                </div>
+                </div> */}
                 <div className="item">
                     <img src="./assets/radmedia.png" alt="Rad Media"></img>
                     <h3>Rad Media</h3>
