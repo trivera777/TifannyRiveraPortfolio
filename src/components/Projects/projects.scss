@@ -18,8 +18,8 @@
     flex-wrap: wrap;
 
     .item {
-      width: 40%;
-      height: 40%;
+      width: 300px;
+      height: 200px;
       border-radius: 20px;
       border: 1px solid lightslategray;
       margin: 10px 20px;
@@ -30,7 +30,12 @@
       position: relative;
       transition: all 0.5s ease;
       cursor: pointer;
-      transition: all 0.5s ease;
+
+      @include mobile {
+        margin: 10px 0;
+        width: 250px;
+        height: 150px;
+      }
 
       h3 {
         position: absolute;
