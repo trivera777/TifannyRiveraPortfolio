@@ -1,48 +1,63 @@
 @import "../../global.scss";
-.about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    .title {
-        font-size: 40px;
-        float: left;
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    font-size: 40px;
+    padding: 5px 5px;
+
+    @include mobile {
+      font-size: 30px;
+      margin-bottom: 0;
     }
+  }
 
   .wrapper {
     display: flex;
-    height: 70%;
-    width: 70%;
-    border-radius: 20px 150px;
+    height: 60%;
+    width: 50%;
+    border-radius: 20px 110px;
     overflow: hidden;
+    flex-direction: column;
+    background-color: lavender;
 
-    .left {
+    @include mobile {
       display: flex;
-      height: 100%;
-      width: 100%;
-      flex-direction: column;
-      background-color: lavender;
-
-        .list {
-            display: flex;
-            font-size: 30px;
-            justify-content: center;
-            align-items: center;
-        }
+      height: 85vh;
+      width: 85vw;
+      font-size: 10px;
     }
 
-    .right {
+    .list {
       display: flex;
-      height: 100%;
-      width: 100%;
-      flex-direction: column;
-      background-color: lightblue;
+      font-size: 30px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+    }
+  }
 
-      .about{
-        font-size: 16px;
-        margin: 10px;
-        align-items: center;
-        justify-content:space-evenly;
+  .right {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    background-color: lightblue;
+
+    .about {
+      font-size: 16px;
+      margin: 10px;
+      align-items: center;
+      justify-content: space-evenly;
+
+      @include mobile {
+        display: flex;
+        font-size: 15px;
+      border-radius: 20px;
+
       }
     }
   }
