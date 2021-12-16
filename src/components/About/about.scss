@@ -17,16 +17,18 @@
 
   .wrapper {
     display: flex;
-    height: 60%;
+    height: 50%;
     width: 50%;
     border-radius: 20px 110px;
     overflow: hidden;
     flex-direction: column;
-    background-color: lavender;
+    background-color: lightblue;
 
     @include mobile {
+    overflow: hidden;
+
       display: flex;
-      height: 65vh;
+      height: 70vh;
       width: 85vw;
       font-size: 10px;
       margin-top: -100px;
@@ -48,17 +50,19 @@
     flex-direction: column;
     background-color: lightblue;
 
+    @include mobile {
+      border-radius: 10px 10px;
+      height:max-content;
+    }
+
     .about {
       font-size: 16px;
       margin: 10px;
       align-items: center;
-      justify-content: space-evenly;
+      padding: 10px 10px;
 
       @include mobile {
-        display: flex;
         font-size: 15px;
-      border-radius: 20px;
-
       }
     }
   }
