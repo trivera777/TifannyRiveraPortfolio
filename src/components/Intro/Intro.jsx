@@ -5,7 +5,9 @@ export default function Intro(){
     return (
         <div className="intro" id="intro">
             <div className="left">
+                <div className="imgContainer">
                 <img src="./assets/antelope.png" alt="Tifanny Rivera"></img>
+                </div>
             </div>
             <div className="right">
                 <div className="wrapper">
