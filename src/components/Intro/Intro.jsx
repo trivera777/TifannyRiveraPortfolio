@@ -10,7 +10,7 @@ export default function Intro(){
                 </div>
             </div>
             <div className="right">
-                <div className="wrapper">
+                <div className="wrapper" style={{marginLeft: "50px"}}>
                     <h2>Hi I'm</h2>
                     <h1>Tifanny Rivera</h1>
                     <h3>Front End Developer</h3>

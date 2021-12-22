@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.scss";
-import { Person, Mail, GitHub, LinkedIn, Instagram } from "@material-ui/icons";
+import { Person, Mail, GitHub, LinkedIn, Instagram, Attachment } from "@material-ui/icons";
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
   return (
@@ -18,18 +18,22 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             <Mail className="icon" />
             <span>trivera51580@gmail.com</span>
           </div>
+          <div className="itemContainer" style={{marginRight: "150px"}}>
+            <Attachment className="icon" />
+            <a href="https://drive.google.com/file/d/1lth8a2tTB-0PtQusNx_TtMLi47kjQEON/view?usp=sharing" target="_blank">resume</a>
+          </div>
           <div className="itemContainer">
-            <a href="https://github.com/trivera777">
+            <a href="https://github.com/trivera777" target="_blank">
               <GitHub className="icon" style={{ fontSize: "45px" }} />
             </a>
           </div>
           <div className="itemContainer">
-            <a href="https://www.linkedin.com/in/tifannyrivera/">
+            <a href="https://www.linkedin.com/in/tifannyrivera/" target="_blank">
               <LinkedIn className="icon" style={{ fontSize: "45px" }} />
             </a>
           </div>
           <div className="itemContainer">
-            <a href="https://www.instagram.com/tifann_y/">
+            <a href="https://www.instagram.com/tifann_y/" target="_blank">
               <Instagram className="icon" style={{ fontSize: "45px" }} />
             </a>
           </div>
