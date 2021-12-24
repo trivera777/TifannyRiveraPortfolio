@@ -1,6 +1,13 @@
 import React from "react";
 import "./navbar.scss";
-import { Person, Mail, GitHub, LinkedIn, Instagram, Attachment } from "@material-ui/icons";
+import {
+  Person,
+  Mail,
+  GitHub,
+  LinkedIn,
+  Instagram,
+  Attachment,
+} from "@material-ui/icons";
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
   return (
@@ -18,9 +25,14 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             <Mail className="icon" />
             <span>trivera51580@gmail.com</span>
           </div>
-          <div className="itemContainer" style={{marginRight: "150px"}}>
+          <div className="itemContainer" style={{ marginRight: "150px" }}>
             <Attachment className="icon" />
-            <a href="https://drive.google.com/file/d/1lth8a2tTB-0PtQusNx_TtMLi47kjQEON/view?usp=sharing" target="_blank">resume</a>
+            <a
+              href="https://drive.google.com/file/d/1lth8a2tTB-0PtQusNx_TtMLi47kjQEON/view?usp=sharing"
+              target="_blank"
+            >
+              view resume
+            </a>
           </div>
           <div className="itemContainer">
             <a href="https://github.com/trivera777" target="_blank">
@@ -28,7 +40,10 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             </a>
           </div>
           <div className="itemContainer">
-            <a href="https://www.linkedin.com/in/tifannyrivera/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/tifannyrivera/"
+              target="_blank"
+            >
               <LinkedIn className="icon" style={{ fontSize: "45px" }} />
             </a>
           </div>
@@ -38,7 +53,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             </a>
           </div>
         </div>
-        <div className="right" style={{float: "right"}}>
+        <div className="right" style={{ float: "right" }}>
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
             <span className="line1"></span>
             <span className="line2"></span>

@@ -25,7 +25,7 @@ export default function Works() {
     {
       id: "3",
       title: "Furever Home",
-      desc: "description",
+      desc: "Use this app to find a Furever friend near you! Just enter in what kind of pet you are looking for, and what area and let the magic happen. All of the pets will be populated so you can give them tier FurEver Home! The app calls the petfinder API and returns pets near you that are ready for their FurEver Home!",
       img: "./assets/fureverhome.png",
       link: "FurEverHome.info",
       github: "https://github.com/trivera777/Furever-Home"
@@ -33,7 +33,7 @@ export default function Works() {
     {
       id: "4",
       title: "Rad Media",
-      desc: "description",
+      desc: "This is a simple and fun site that I created for a friend. I wanted to showcase his awesome photography and show off a different style of design that I have never done before. I enjoyed adding the distorted title on the site.",
       img: "./assets/radmedia.png",
       link: "https://trivera777.github.io/RadMedia/",
       github: "https://github.com/trivera777/RadMedia"
@@ -41,7 +41,7 @@ export default function Works() {
     {
       id: "5",
       title: "Tech Blog",
-      desc: "description",
+      desc: "This app is a tech blog that allows users to create a profile to be able to create, edit and delete their own blog posts. User is also able to comment on other users posts.",
       img: "./assets/techblog.png",
       link: "https://tr-techblog.herokuapp.com/",
       github: "https://github.com/trivera777/TechBlog"
@@ -49,7 +49,7 @@ export default function Works() {
     {
       id: "6",
       title: "Note Taker",
-      desc: "description",
+      desc: "An application to create and store notes with Express.js and retrieve note data from JSON file.",
       img: "./assets/notetaker.png",
       link: "https://tr-notetaker.herokuapp.com/",
       github: "hhttps://github.com/trivera777/NoteTaker"
