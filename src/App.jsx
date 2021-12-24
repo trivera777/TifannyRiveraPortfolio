@@ -4,7 +4,6 @@ import Navbar from './components/Navbar/Navbar'
 import Menu from './components/Menu/Menu'
 import Intro from './components/Intro/Intro'
 import About from './components/About/About'
-import Projects from './components/Projects/Projects'
 import Works from './components/Works/Works'
 import './app.scss'
 
@@ -18,7 +17,6 @@ function App() {
             <div className="sections">
                 <Intro />
                 <About />
-                <Projects />
                 <Works />
             </div>
         </div>
