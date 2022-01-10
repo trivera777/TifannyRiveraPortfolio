@@ -8,5 +8,12 @@ I have a few projects that I still need to add to my portfolio. I am also workin
 # Preview of portfolio
 ![Portfolio Screenshot](./public/assets/portfolio.png)
 
-# Mobile Responsive
-![Portfolio Screenshot](./public/assets/mobile.png)
+
+# Technologies Used
+
+```` 
+React
+JSX 
+SCSS
+Material UI Icons
+````
