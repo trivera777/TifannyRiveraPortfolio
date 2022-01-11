@@ -28,7 +28,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
           <div className="itemContainer" style={{ marginRight: "150px" }}>
             <Attachment className="icon" />
             <a
-              href="https://drive.google.com/file/d/1lth8a2tTB-0PtQusNx_TtMLi47kjQEON/view?usp=sharing"
+              href="https://drive.google.com/file/d/103sPP1J2jF5nt-DJ1V0DuZ2HbS6Li7YQ/view?usp=sharing"
               target="_blank"
             >
               view resume
