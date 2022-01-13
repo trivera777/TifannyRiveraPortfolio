@@ -60,7 +60,7 @@ export default function Works() {
       desc: "An application to create and store notes with Express.js and retrieve note data from JSON file.",
       img: "./assets/notetaker.png",
       link: "https://tr-notetaker.herokuapp.com/",
-      github: "hhttps://github.com/trivera777/NoteTaker"
+      github: "https://github.com/trivera777/NoteTaker"
     }
   ];
 
