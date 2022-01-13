@@ -13,22 +13,31 @@
   .left {
     flex: 0.5;
 
-    img {
-      border-radius: 50%;
-      margin-left: 40px;
-      margin-right: 40px;
+    .imgContainer{
+      height: 50%;
 
-      @include mobile {
-        margin: 0;
-        flex: none;
+      img {
+        border-radius: 50%;
+        height: 90vh;
+        margin-left: 150px;
+  
+        @include mobile {
+          margin: 0;
+          flex: none;
+          height: auto;
+          width: auto;
+        }
       }
     }
+
   }
 
   .right {
     flex: 0.5;
+    margin-left: 50px;
 
     @include mobile {
+      margin: 0;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -42,7 +51,7 @@
       justify-content: center;
 
       @include mobile {
-        margin-right: 35px;
+        margin-right: 45px;
         text-align: center;
       }
 

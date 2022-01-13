@@ -4,25 +4,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  .title {
-    font-size: 40px;
-    padding: 5px 5px;
-
-    @include mobile {
-      font-size: 30px;
-      margin-bottom: 0;
-    }
-  }
+  background-color: #8c1e2e;
 
   .wrapper {
-    display: flex;
-    height: 50%;
-    width: 50%;
+    height: 55%;
+    width: 30%;
     border-radius: 20px 110px;
-    overflow: hidden;
+    background-color: #fff;
+    justify-content: center;
+    align-content: center;
     flex-direction: column;
-    background-color: lightblue;
 
     @include mobile {
       overflow: hidden;
@@ -34,36 +25,33 @@
       margin-top: -80px;
     }
 
-    .list {
+    .aboutContainer {
       display: flex;
-      font-size: 30px;
       justify-content: center;
-      align-items: center;
-      border-radius: 20px;
-    }
-  }
+      align-content: center;
 
-  .right {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    flex-direction: column;
-    background-color: lightblue;
+      .badge {
+        height: 50%;
 
-    @include mobile {
-      height: 80%;
+        @include mobile {
+          display: flex;
+          height: auto;
+        }
+      }
     }
 
-    .about {
-      font-size: 16px;
-      margin: 10px;
-      align-items: center;
-      padding: 10px 10px;
+    .title {
+      padding: 5px 5px;
+      display: flex;
+
+      h1 {
+        font-size: 40px;
+        font-weight: 700;
+      }
 
       @include mobile {
-        margin: 0;
-        font-size: 13px;
-        padding: 20px 20px;
+        font-size: 30px;
+        margin-bottom: 0;
       }
     }
   }

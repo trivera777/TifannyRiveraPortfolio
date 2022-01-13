@@ -25,7 +25,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             <Mail className="icon" />
             <span>trivera51580@gmail.com</span>
           </div>
-          <div className="itemContainer" style={{ marginRight: "150px" }}>
+          <div className="itemContainer" style={{ marginRight: "50px" }}>
             <Attachment className="icon" />
             <a
               href="https://drive.google.com/file/d/103sPP1J2jF5nt-DJ1V0DuZ2HbS6Li7YQ/view?usp=sharing"
@@ -51,7 +51,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             <a href="https://www.instagram.com/tifann_y/" target="_blank">
               <Instagram className="icon" style={{ fontSize: "45px" }} />
             </a>
-          </div>
+            </div>
         </div>
         <div className="right" style={{ float: "right" }}>
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
