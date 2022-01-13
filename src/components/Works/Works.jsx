@@ -35,7 +35,7 @@ export default function Works() {
       title: "Furever Home",
       desc: "Use this app to find a Furever friend near you! This app calls the petfinder API and returns pets near you that are ready for their FurEver Home!",
       img: "./assets/fureverhome.png",
-      link: "FurEverHome.info",
+      link: "https://fureverhome.herokuapp.com/",
       github: "https://github.com/trivera777/Furever-Home"
     },
     {
