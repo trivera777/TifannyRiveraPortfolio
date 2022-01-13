@@ -26,7 +26,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             <Mail className="icon" />
             <span>trivera51580@gmail.com</span>
           </div>
-          <div className="itemContainer" style={{ marginRight: "50px" }}>
+          <div className="itemContainer">
             <Attachment className="icon" />
             <a
               href="https://drive.google.com/file/d/103sPP1J2jF5nt-DJ1V0DuZ2HbS6Li7YQ/view?usp=sharing"
@@ -35,7 +35,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
               view resume
             </a>
           </div>
-          <div className="itemContainer" style={{ marginRight: "50px" }}>
+          <div className="itemContainer">
             <VerifiedUser className="icon" />
             <a
               href="https://www.credly.com/badges/5baf8c6e-b123-4aa6-93b4-630af8b31a97/linked_in"
