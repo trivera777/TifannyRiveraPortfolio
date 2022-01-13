@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { PhoneIphone, ArrowForwardIos, ArrowBackIos } from "@material-ui/icons";
+import { ArrowForwardIos, ArrowBackIos } from "@material-ui/icons";
 import "./works.scss";
 
 export default function Works() {
