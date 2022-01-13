@@ -7,6 +7,7 @@ import {
   LinkedIn,
   Instagram,
   Attachment,
+  VerifiedUser
 } from "@material-ui/icons";
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
@@ -32,6 +33,15 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
               target="_blank"
             >
               view resume
+            </a>
+          </div>
+          <div className="itemContainer" style={{ marginRight: "50px" }}>
+            <VerifiedUser className="icon" />
+            <a
+              href="https://www.credly.com/badges/5baf8c6e-b123-4aa6-93b4-630af8b31a97/linked_in"
+              target="_blank"
+            >
+              verifed badge from DU
             </a>
           </div>
           <div className="itemContainer">

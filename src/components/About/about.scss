@@ -7,12 +7,12 @@
   background-color: #8c1e2e;
 
   .wrapper {
-    height: 55%;
+    height: 65%;
     width: 30%;
     border-radius: 20px 110px;
     background-color: #fff;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     flex-direction: column;
 
     @include mobile {
@@ -26,16 +26,18 @@
     }
 
     .aboutContainer {
-      display: flex;
-      justify-content: center;
-      align-content: center;
-
       .badge {
-        height: 50%;
+        display: flex;
+        height: 60%;
+        width: 50%;
 
         @include mobile {
           display: flex;
           height: auto;
+        }
+
+        .aboutSection {
+          padding-left: 20px;
         }
       }
     }
