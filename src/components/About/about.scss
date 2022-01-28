@@ -30,5 +30,16 @@
         margin-bottom: 0;
       }
     }
+
+    .aboutContainer {
+      margin: 50px;
+
+      a {
+        color: #000;
+        align-items: center;
+        text-decoration: underline;
+        justify-content: center;
+      }
+    }
   }
 }
