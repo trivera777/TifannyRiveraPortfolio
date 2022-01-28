@@ -4,10 +4,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #8c1e2e;
+  background-color:indianred;
 
   .wrapper {
-    height: 65%;
+    height: 50%;
     width: 30%;
     border-radius: 20px 110px;
     background-color: #fff;
@@ -15,32 +15,6 @@
     align-items: center;
     flex-direction: column;
 
-    @include mobile {
-      overflow: hidden;
-      border-radius: 20px 80px;
-      display: flex;
-      height: 60%;
-      width: 85vw;
-      font-size: 10px;
-      margin-top: -80px;
-    }
-
-    .aboutContainer {
-      .badge {
-        display: flex;
-        height: 60%;
-        width: 50%;
-
-        @include mobile {
-          display: flex;
-          height: auto;
-        }
-
-        .aboutSection {
-          padding-left: 20px;
-        }
-      }
-    }
 
     .title {
       padding: 5px 5px;

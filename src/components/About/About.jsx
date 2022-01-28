@@ -7,22 +7,20 @@ export default function About() {
       <div className="wrapper">
         <div className="title">
           <h1>about.</h1>
-        </div>
-        <div className="aboutContainer">
-          <a
-            href="https://www.credly.com/badges/5baf8c6e-b123-4aa6-93b4-630af8b31a97/linked_in"
-            target="_blank"
-          >
-            <img src="./assets/badge.png" className="badge"></img>
-          </a>
-
-          <div className="aboutSection">
-            Recent graduate from the University of Denver's Coding Boot Camp.
-            Worked through 500+ hours of boot camp structure to develop projects
-            using HTML5, CSS3, JavaScript, React, GitHub, Heroku, and other
-            programming languages.
           </div>
-        </div>
+          <div className="aboutContainer">
+            Hi my name is Tifanny! I come from a small town in Colorado called Greeley.
+            I was born in Mexico but raised in Colorado the majority of my life.
+            <br />
+            For the past five years I have been working in the banking industry. 
+            Five years is a long time. For me anyway, and for the goals that I have 
+            for my life. 
+            <br />
+            By some miracle, as I was hunting for jobs, I came across
+            a jo that required coding experience. I wasn't really sure what that was,
+            and that's what started it all. 
+
+          </div>
       </div>
     </div>
   );
