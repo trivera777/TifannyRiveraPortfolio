@@ -9,12 +9,13 @@ export default function About() {
           <h1>about.</h1>
         </div>
         <div className="aboutContainer">
+          <img src='./assets/me.png' style={{ height: '35vh'}} />
           Hi my name is Tifanny! I come from a small town in Colorado called
           Greeley. I was born in Mexico but raised in Colorado the majority of
           my life.
           <br />
           For the past five years I have been working in the banking industry.
-          Five years is a long time. For me anyway.
+          Five years is a long time. The longer I stayed there, the more I 
           <br />
           One day as I was browsing through job postings, I came across a job
           that required coding experience. I wasn't really sure what that was,
