@@ -2,27 +2,40 @@
 
 .about {
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color:indianred;
+  justify-content: center;
+  background-color: indianred;
 
   .wrapper {
+    width: 30%;
     height: 65%;
-    width: 50%;
-    border-radius: 20px 110px;
-    background-color: #fff;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 20px 110px;
 
-    @include mobile{
-      height: 80vh;
+    @include mobile {
       width: 90vw;
+      height: 80vh;
     }
 
+    img {
+      @include mobile {
+        height: fit-content;
+        width: fit-content;
+      }
+    }
+
+    .link {
+      color: inherit;
+      align-items: center;
+      justify-items: center;
+      text-decoration: underline;
+    }
 
     .title {
-      padding: 5px 5px;
       display: flex;
+      padding: 5px 5px;
 
       h1 {
         font-size: 40px;
@@ -36,19 +49,16 @@
     }
 
     .aboutContainer {
-      display: flex;
       margin: 30px;
+      display: flex;
 
-      .text {
-        display: flex;
-        text-align: justify;
-
-        .link {
-          text-decoration: underline;
-          color: inherit;
-        }
+      @include mobile {
+        display: flexbox;
       }
 
+      .text {
+        padding-left: 10px;
+      }
     }
   }
 }
