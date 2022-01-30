@@ -13,7 +13,11 @@
     background-color: #fff;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+
+    @include mobile{
+      height: 80vh;
+      width: 90vw;
+    }
 
 
     .title {
@@ -33,21 +37,18 @@
 
     .aboutContainer {
       display: flex;
-      margin: 50px;
+      margin: 30px;
 
-      img {
-        max-width: 100%;
-      }
-
-      
       .text {
-        padding-left: 20px;
+        display: flex;
+        text-align: justify;
 
-        a {
-          color: #000;
+        .link {
           text-decoration: underline;
+          color: inherit;
         }
       }
+
     }
   }
 }
