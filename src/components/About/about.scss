@@ -7,8 +7,8 @@
   background-color:indianred;
 
   .wrapper {
-    height: 50%;
-    width: 30%;
+    height: 65%;
+    width: 50%;
     border-radius: 20px 110px;
     background-color: #fff;
     justify-content: center;
@@ -32,13 +32,21 @@
     }
 
     .aboutContainer {
+      display: flex;
       margin: 50px;
 
-      a {
-        color: #000;
-        align-items: center;
-        text-decoration: underline;
-        justify-content: center;
+      img {
+        max-width: 100%;
+      }
+
+      
+      .text {
+        padding-left: 20px;
+
+        a {
+          color: #000;
+          text-decoration: underline;
+        }
       }
     }
   }
