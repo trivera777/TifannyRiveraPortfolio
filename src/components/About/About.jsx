@@ -34,8 +34,9 @@ export default function About() {
               href="https://drive.google.com/file/d/1BGVKC7ko9hxC-JgvzyfjBU3LOKJkH1ZM/view?usp=sharing"
               target="_blank"
             >
-              certificate of competion.
+              certificate of competion
             </a>{" "}
+            from the University of Denver.
           </div>
         </div>
       </div>
