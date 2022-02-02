@@ -9,21 +9,27 @@ export default function About() {
           <h1>about.</h1>
         </div>
         <div className="aboutContainer" style={{ color: "black" }}>
-          <img src="./assets/me.png" style={{ height: "35vh" }} />
+          <img src="./assets/me.png" style={{ height: "45vh" }} />
           <div className="text">
             Hi my name is Tifanny! I live in Colorado and I have lived here for
             the majority of my life. I am currently a personal banker offering
             five years of diversified experience with excellent communication
             and problem-solving skills. I am able to focus on projects, develop
             strategies and meet or exceed company expectations.
-            <br />I am a recent Coding Bootcamp graduate with fundamental
-            knowledge of software design, development, and testing. Seeking to
-            utilize broad educational background with excelent analytical,
-            technical, and programming skills to thrive as an entry-level
-            software engineer. <br />
-            View my verified badge along with my certificate of completion down
-            below.
+            <br />
+            <br />
+            I am a recent Coding Bootcamp graduate with fundamental knowledge of
+            software design, development, and testing. Seeking to utilize broad
+            educational background with excelent analytical, technical, and
+            programming skills to thrive as an entry-level software engineer.{" "}
+            <br />
+            <br />
+            Feel free to contact me for further inquiries.
+            <br />
+            <br />
+            <span class="logged-in">●</span> Available for hire
           </div>
+          <br />
         </div>
       </div>
     </div>

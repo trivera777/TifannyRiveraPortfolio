@@ -7,12 +7,13 @@
   background-color: indianred;
 
   .wrapper {
-    width: 35%;
-    height: 55%;
+    width: 40%;
+    height: 70%;
     align-items: center;
     justify-content: center;
     background-color: #fff;
     border-radius: 20px 110px;
+    overflow: hidden;
 
     @include mobile {
       width: 90vw;
@@ -51,12 +52,21 @@
       margin: 30px;
       display: flex;
 
+      a {
+        flex-direction: initial;
+        flex-direction: column;
+      }
+
       @include mobile {
         display: flexbox;
       }
 
       .text {
         padding-left: 10px;
+
+        .logged-in {
+          color: rgb(26, 174, 26);
+        }
       }
     }
   }
