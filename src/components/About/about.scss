@@ -17,7 +17,7 @@
 
     @include mobile {
       width: 90vw;
-      height: 70vh;
+      height: 75vh;
     }
 
     img {
@@ -63,6 +63,10 @@
 
       .text {
         padding-left: 10px;
+
+        @include mobile{
+          font-size: 15px;
+        }
 
         .logged-in {
           color: rgb(26, 174, 26);
