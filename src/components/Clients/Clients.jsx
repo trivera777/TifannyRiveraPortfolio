@@ -11,9 +11,10 @@ export default function Clients() {
       desc: `I had the pleasure of working with business 
       owner Jasmin Ponce and her clothing brand, Meraki Oasis. 
       I enjoyed designing her website and it was done with the help of Wix. 
-      As a newbie front end developer, I was very grateful that I had the chance
-      to show my work. The fact that this was my first paying client made all the
-      late nights working on the website worth it.`,
+      As a newbie front end developer, I was very grateful that my client took a chance on me.
+      I was able to pull it off all while still working full time at the bank.
+      Yes it got tough at times but the final results motivate me to continue
+      to get better as a front end developer.`,
       img: "./assets/meraki.png",
       link: "https://www.merakioasis.store/",
     },

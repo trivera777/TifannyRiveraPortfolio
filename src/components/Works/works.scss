@@ -6,12 +6,13 @@
   position: relative;
   align-items: center;
   justify-content: center;
-  background-color: #c2d3cd;
+  background-color: #465362;
 
   .worksArrow {
     font-size: 70px;
     position: absolute;
     cursor: pointer;
+    color: rgb(255, 255, 255);
 
     @include mobile {
       display: none;
