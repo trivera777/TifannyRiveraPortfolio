@@ -5,6 +5,7 @@ import Menu from './components/Menu/Menu'
 import Intro from './components/Intro/Intro'
 import Works from './components/Works/Works'
 import About from './components/About/About'
+import Clients from './components/Clients/Clients'
 import './app.scss'
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
             <Menu />
             <div className="sections">
                 <Intro />
-                <Works />
                 <About />
+                <Works />
+                <Clients />
             </div>
         </div>
     )
