@@ -31,14 +31,15 @@ export default function Clients() {
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
         >
-      <div className="title">
-        Freelance work.
-      </div>
         {data.map((d) => (
           <div className="clientsContainer">
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
+                <div className="title">
+                    Freelance work.
+                  </div>
+                  
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
                   <a href={d.link} target="_blank">
