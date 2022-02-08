@@ -30,7 +30,10 @@ export default function Clients() {
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
-      >
+        >
+      <div className="title">
+        Freelance work.
+      </div>
         {data.map((d) => (
           <div className="clientsContainer">
             <div className="item">

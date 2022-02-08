@@ -7,6 +7,11 @@
   align-items: center;
   justify-content: center;
   background-color: #7c6c77;
+  
+  .title {
+    position: static;
+    font-size: 40px;
+  }
 
   .clientsArrow {
     font-size: 70px;
@@ -39,6 +44,11 @@
       justify-items: center;
     }
 
+    h1 {
+      font-size: 25px;
+      position: inherit;
+    }
+
     .clientsContainer {
       width: 100vw;
       display: flex;
@@ -52,15 +62,6 @@
         margin: 5px;
       }
 
-      .title {
-        position: static;
-        flex-direction: column;
-
-        h1 {
-          font-size: 40px;
-        }
-      }
-
       .item {
         overflow: hidden;
         width: 1000px;
@@ -70,8 +71,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
-        
 
         .left {
           flex: 4;
@@ -95,15 +94,14 @@
             }
             p {
               font-size: 14px;
-            padding-top: 30px;
-
+              padding-top: 30px;
             }
             a {
               color: #000;
               font-size: 17px;
               font-weight: 600;
               cursor: pointer;
-            padding-top: 30px;
+              padding-top: 30px;
 
               text-decoration: underline;
             }
