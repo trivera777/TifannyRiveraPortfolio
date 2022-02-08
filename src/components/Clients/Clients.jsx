@@ -37,7 +37,7 @@ export default function Clients() {
               <div className="left">
                 <div className="leftContainer">
                 <div className="title">
-                    Freelance work.
+                    freelance work.
                   </div>
                   
                   <h2>{d.title}</h2>
