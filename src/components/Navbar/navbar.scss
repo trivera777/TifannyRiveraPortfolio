@@ -10,9 +10,6 @@
   z-index: 3;
   transition: all 1s ease;
 
-  @include mobile {
-    font-size: 20px;
-  }
 
   .wrapper {
     width: 100%;
@@ -31,8 +28,7 @@
         color: inherit;
 
         @include mobile {
-          font-size: 30px;
-          margin-left: 0;
+          display: none;
         }
       }
 
@@ -71,6 +67,10 @@
         flex-direction: column;
         justify-content: space-between;
         cursor: pointer;
+
+        @include mobile{
+          margin-top: 10px;
+        }
 
         span {
           width: 100%;
