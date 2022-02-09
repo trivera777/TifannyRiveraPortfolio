@@ -79,6 +79,9 @@ export default function Works() {
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
+                  <div className="title">
+                          freelance work.
+                        </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
                   <p>{d.list}</p>
