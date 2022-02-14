@@ -35,6 +35,9 @@ export default function Clients() {
             <div className="title">
            freelance work
            </div>
+           <div className="bodyContainer">
+          Meraki Oasis
+           </div>
           </div>
         ))}
       </div>

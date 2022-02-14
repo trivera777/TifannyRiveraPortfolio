@@ -3,7 +3,6 @@
 
 .clients {
   display: flex;
-  position: relative;
   align-items: center;
   justify-content: center;
   background-color: #7c6c77;
@@ -24,8 +23,21 @@
       display: flex;
       overflow: hidden;
       align-items: center;
+      flex-direction: column;
+
       justify-content: center;
       background-color: #fff;
+
+      .title{
+        display: flex;
+      }
+
+      .bodyContainer {
+        flex-direction: column;
+
+
+        
+      }
     }
   }
 }
