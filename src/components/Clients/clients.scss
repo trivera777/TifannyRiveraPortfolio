@@ -7,33 +7,8 @@
   align-items: center;
   justify-content: center;
   background-color: #7c6c77;
-  
-  .title {
-    position: static;
-    font-size: 40px;
-  }
-
-  .clientsArrow {
-    font-size: 70px;
-    position: absolute;
-    cursor: pointer;
-
-    @include mobile {
-      display: none;
-    }
-
-    &.left {
-      left: 100px;
-    }
-    &.right {
-      right: 100px;
-    }
-  }
 
   .slider {
-    height: 500px;
-    display: flex;
-    position: absolute;
     left: 0;
     transition: all 1s ease-out;
 
@@ -44,90 +19,13 @@
       justify-items: center;
     }
 
-    h1 {
-      font-size: 25px;
-      position: inherit;
-    }
-
     .clientsContainer {
-      width: 100vw;
+      width: 800px;
       display: flex;
       overflow: hidden;
       align-items: center;
       justify-content: center;
-
-      @include mobile {
-        width: 90vw;
-        height: 20vh;
-        margin: 5px;
-      }
-
-      .item {
-        overflow: hidden;
-        width: 1000px;
-        height: 100%;
-        background-color: #fff;
-        border-radius: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-
-        
-        .left {
-          flex: 4;
-          height: 120%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          
-          .leftContainer {
-            width: 95%;
-            height: 70%;
-            display: flex;
-            flex-direction: column;
-            margin: 20px;
-            padding-top: 30px;
-            
-            .title {
-              text-decoration: underline;
-              margin-bottom: 25px;
-              margin-top: -70px;
-            }
-
-            h2 {
-              font-size: 30px;
-              font-weight: 600;
-              font-family: "Sanchez", serif;
-            }
-            p {
-              font-size: 14px;
-              padding-top: 30px;
-            }
-            a {
-              color: #000;
-              font-size: 17px;
-              font-weight: 600;
-              cursor: pointer;
-              padding-top: 30px;
-
-              text-decoration: underline;
-            }
-          }
-        }
-
-        .right {
-          flex: 8;
-          height: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-
-          img {
-            width: 600px;
-          }
-        }
-      }
+      background-color: #fff;
     }
   }
 }

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { ArrowForwardIos, ArrowBackIos } from "@material-ui/icons";
 import "./clients.scss";
 
 export default function Clients() {
@@ -33,35 +32,12 @@ export default function Clients() {
         >
         {data.map((d) => (
           <div className="clientsContainer">
-            <div className="item">
-              <div className="left">
-                <div className="leftContainer">
-                <div className="title">
-                    freelance work.
-                  </div>
-                  
-                  <h2>{d.title}</h2>
-                  <p>{d.desc}</p>
-                  <a href={d.link} target="_blank">
-                    Live Website
-                  </a>
-                </div>
-              </div>
-              <div className="right">
-                <img src={d.img}></img>
-              </div>
-            </div>
+            <div className="title">
+           freelance work
+           </div>
           </div>
         ))}
       </div>
-      {/* <ArrowBackIos
-        className="clientsArrow left"
-        onClick={() => handleClick("left")}
-      />
-      <ArrowForwardIos
-        className="clientsArrow right"
-        onClick={() => handleClick("right")}
-      /> */}
     </div>
   );
 }
