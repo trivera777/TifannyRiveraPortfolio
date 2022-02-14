@@ -28,6 +28,10 @@
       justify-content: center;
       background-color: #fff;
 
+      @include mobile {
+        width: 90vw;
+      }
+
       .title{
         display: flex;
       }
@@ -35,8 +39,14 @@
       .bodyContainer {
         flex-direction: column;
 
+        @include mobile {
+          width: 80vw;
+        }
 
-        
+        h2 {
+          font-size: 40px;
+          font-weight: 700;
+        }
       }
     }
   }
