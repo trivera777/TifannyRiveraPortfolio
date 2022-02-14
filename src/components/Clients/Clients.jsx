@@ -37,6 +37,17 @@ export default function Clients() {
            </div>
            <div className="bodyContainer">
           Meraki Oasis
+
+          <h2>{d.title}</h2>
+                  <p>{d.desc}</p>
+                  <p>{d.list}</p>
+                  <a href={d.link} target="_blank">Live Website</a>
+                  <a href={d.github} target="_blank">GitHub Repo</a>
+              
+              <div className="right">
+                <img src={d.img}></img>
+              
+            </div>
            </div>
           </div>
         ))}
