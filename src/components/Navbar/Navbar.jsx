@@ -7,7 +7,7 @@ import {
   LinkedIn,
   Instagram,
   Attachment,
-  VerifiedUser
+  VerifiedUser,
 } from "@material-ui/icons";
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
@@ -19,32 +19,18 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             tifanny rivera
           </a>
           <div className="itemContainer">
-            <Person className="icon" />
-            <span>970-515-8586</span>
+            <a href="#about">about</a>
           </div>
           <div className="itemContainer">
-            <Mail className="icon" />
-            <span>trivera51580@gmail.com</span>
+            <a href="#works">projects</a>
           </div>
           <div className="itemContainer">
-            <Attachment className="icon" />
-            <a
-              href="https://drive.google.com/file/d/103sPP1J2jF5nt-DJ1V0DuZ2HbS6Li7YQ/view?usp=sharing"
-              target="_blank"
-            >
-              view resume
-            </a>
+            <a href="#clients">freelance work</a>
           </div>
           <div className="itemContainer">
-            <VerifiedUser className="icon" />
-            <a
-              href="https://www.credly.com/badges/5baf8c6e-b123-4aa6-93b4-630af8b31a97/linked_in"
-              target="_blank"
-            >
-              verifed badge from DU
-            </a>
+            <a href="#contact">contact</a>
           </div>
-          <div className="itemContainer">
+          {/* <div className="itemContainer">
             <a href="https://github.com/trivera777" target="_blank">
               <GitHub className="icon" style={{ fontSize: "45px" }} />
             </a>
@@ -61,7 +47,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             <a href="https://www.instagram.com/tifann_y/" target="_blank">
               <Instagram className="icon" style={{ fontSize: "45px" }} />
             </a>
-            </div>
+          </div> */}
         </div>
         <div className="right" style={{ float: "right" }}>
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
@@ -73,4 +59,21 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
       </div>
     </div>
   );
+}
+
+{
+  /* <div className="itemContainer">
+<Person className="icon" />
+<span>970-515-8586</span>
+</div>
+<div className="itemContainer">
+<Mail className="icon" />
+<span>trivera51580@gmail.com</span>
+  <a
+              href="https://drive.google.com/file/d/103sPP1J2jF5nt-DJ1V0DuZ2HbS6Li7YQ/view?usp=sharing"
+              target="_blank"
+            >
+              view resume
+            </a>
+</div> */
 }

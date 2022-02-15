@@ -36,10 +36,11 @@ export default function Clients() {
             <div className="bodyContainer">
               <h2>{d.title}</h2>
               <p>{d.desc}</p>
-              <p>{d.list}</p>
+              <br />
               <a href={d.link} target="_blank">
                 Live Website
               </a>
+              <br />
 
               <img src={d.img}></img>
             </div>

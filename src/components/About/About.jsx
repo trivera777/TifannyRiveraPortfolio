@@ -11,20 +11,8 @@ export default function About() {
         <div className="aboutContainer" style={{ color: "black" }}>
           <img src="./assets/me.png" style={{ height: "45vh" }} />
           <div className="text">
-            Hi my name is Tifanny! I live in Colorado and I have lived here for
-            the majority of my life. I am currently a personal banker offering
-            five years of diversified experience with excellent communication
-            and problem-solving skills. I am able to focus on projects, develop
-            strategies and meet or exceed company expectations.
-            <br />
-            <br />
-            I am a recent Coding Bootcamp graduate with fundamental knowledge of
-            software design, development, and testing. Seeking to utilize broad
-            educational background with excelent analytical, technical, and
-            programming skills to thrive as an entry-level software engineer.{" "}
-            <br />
-            <br />
-            Feel free to contact me for further inquiries.
+            Hi my name is Tifanny! I design websites.
+            
             <br />
             <br />
             <span class="logged-in">●</span> Available for hire
@@ -35,3 +23,13 @@ export default function About() {
     </div>
   );
 }
+
+
+// Your portfolio website is essentially like your 
+// business card where it’s the initial point of 
+// contact your potential customers make contact
+//  with you and your work. So, it’s always a 
+//  good practice to include an about page where 
+//  you communicate important information about 
+//  yourself, your work, your experience, your
+//   approach, skills, and completed courses.
