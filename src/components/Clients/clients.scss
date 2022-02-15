@@ -20,8 +20,8 @@
 
     .clientsContainer {
       padding: 20px;
-      width: 90vw;
-      height: 90vh;
+      width: 40vw;
+      height: 85vh;
       align-items: center;
       flex-direction: column;
       border-radius: 20px;
@@ -36,13 +36,21 @@
         display: flex;
         font-size: 40px;
         font-weight: 700;
+
+        @include mobile {
+          font-size: 30px;
+        }
       }
 
       .bodyContainer {
        padding: 20px;
 
+       @include mobile {
+         margin-top: -20px;
+       }
+
        img {
-         width: 600px;
+         width: 500px;
        }
 
         @include mobile {

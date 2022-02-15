@@ -34,7 +34,7 @@ export default function Clients() {
           <div className="clientsContainer">
             <div className="title">freelance work.</div>
             <div className="bodyContainer">
-              <h2>{d.title}</h2>
+              <h2><i>{d.title}</i></h2>
               <p>{d.desc}</p>
               <br />
               <a href={d.link} target="_blank">

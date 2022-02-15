@@ -38,8 +38,13 @@
         margin-left: 30px;
         font-size: 20px;
 
+
         &:hover {
           text-decoration:underline;
+        }
+
+        &.active {
+          text-decoration: underline;
         }
 
         @include mobile {

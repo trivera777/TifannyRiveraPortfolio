@@ -27,7 +27,7 @@
   }
 
   .slider {
-    height: 400px;
+    height: 500px;
     display: flex;
     position: absolute;
     left: 0;
@@ -44,6 +44,23 @@
       overflow: hidden;
       align-items: center;
       justify-content: center;
+      flex-direction: column;
+
+      .title{
+        color: $mainText;
+
+        h1 {
+          margin-right: 650px;
+          font-size: 40px;
+          font-weight: 700;
+          color: $mainText;
+    
+          @include mobile {
+            font-size: 25px;
+            margin-bottom: 0;
+          }
+        }
+      }
 
       .title {
         display: flex;
@@ -69,7 +86,7 @@
 
       .item {
         overflow: hidden;
-        width: 800px;
+        width: 900px;
         height: 100%;
         background-color: #fff;
         border-radius: 20px;
@@ -79,7 +96,7 @@
 
         .left {
           flex: 4;
-          height: 90%;
+          height: 110%;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -91,11 +108,7 @@
             flex-direction: column;
             justify-content: space-between;
 
-            .title{
-              text-decoration: underline;
-              margin-bottom: 25px;
-              margin-top: -60px;
-            }
+        
 
             h2 {
               font-size: 30px;
@@ -124,7 +137,7 @@
           justify-content: center;
 
           img {
-            width: 400px;
+            width: 550px;
           }
         }
       }

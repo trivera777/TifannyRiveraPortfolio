@@ -76,12 +76,12 @@ export default function Works() {
       >
         {data.map((d) => (
           <div className="worksContainer">
+                  <div className="title">
+                          <h1>projects.</h1>
+                        </div>
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
-                  <div className="title">
-                          freelance work.
-                        </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
                   <p>{d.list}</p>
