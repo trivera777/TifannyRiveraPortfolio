@@ -14,9 +14,6 @@
     justify-content: center;
     transition: all 1s ease;
 
-    &.active {
-        right: 0;
-    }
 
     ul {
         margin: 0;
@@ -39,6 +36,15 @@
             &:hover {
                 font-weight: 500;
             }
+        }
+    }
+
+    &.active {
+        right: 0;
+        width: 200px;
+
+        a {
+            font-size: 25px;
         }
     }
 }

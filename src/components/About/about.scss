@@ -4,14 +4,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #DAA49A;
+  background-color: $mainColor;
 
   .wrapper {
     width: 50%;
     height: 80%;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: $mainColor;
     border-radius: 20px 110px;
     overflow: hidden;
 
@@ -35,6 +35,7 @@
       h1 {
         font-size: 40px;
         font-weight: 700;
+        color: $mainText;
   
         @include mobile {
           font-size: 25px;
@@ -51,6 +52,7 @@
       .text {
         font-size: 16px;
         padding-left: 10px;
+        color: $mainText;
 
         @include mobile{
           font-size: 14px;

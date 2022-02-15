@@ -2,7 +2,8 @@
 
 .intro {
   display: flex;
-  background-color: #fff;
+  background-color: #16262E;
+  color: #fff;
 
   @include mobile {
     flex-direction: column;
