@@ -19,10 +19,10 @@ function App() {
             <Menu />
             <div className="sections">
                 <Intro />
-                <About />
+                {/* <About /> */}
                 <Works />
                 <Clients />
-                <Contact />
+                {/* <Contact /> */}
             </div>
         </div>
     )
