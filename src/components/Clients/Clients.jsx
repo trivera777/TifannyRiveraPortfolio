@@ -32,7 +32,7 @@ export default function Clients() {
       >
         {data.map((d) => (
           <div className="clientsContainer">
-            <div className="title">freelance work</div>
+            <div className="title">freelance work.</div>
             <div className="bodyContainer">
               <h2>{d.title}</h2>
               <p>{d.desc}</p>

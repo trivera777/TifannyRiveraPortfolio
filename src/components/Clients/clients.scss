@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #7c6c77;
+  background-color: $mainColor;
 
   .slider {
     left: 0;
@@ -19,10 +19,9 @@
     }
 
     .clientsContainer {
-      width: 700px;
-      height: 80vh;
-      display: flex;
-      overflow: hidden;
+      padding: 20px;
+      width: 90vw;
+      height: 90vh;
       align-items: center;
       flex-direction: column;
       border-radius: 20px;
@@ -35,11 +34,16 @@
 
       .title{
         display: flex;
-        text-decoration: underline;
+        font-size: 40px;
+        font-weight: 700;
       }
 
       .bodyContainer {
-        flex-direction: column;
+       padding: 20px;
+
+       img {
+         width: 600px;
+       }
 
         @include mobile {
           width: 80vw;

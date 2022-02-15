@@ -6,6 +6,8 @@ import Intro from './components/Intro/Intro'
 import Works from './components/Works/Works'
 import About from './components/About/About'
 import Clients from './components/Clients/Clients'
+import Contact from './components/Contact/Contact'
+
 import './app.scss'
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
                 <About />
                 <Works />
                 <Clients />
+                <Contact />
             </div>
         </div>
     )
