@@ -2,7 +2,7 @@
 
 .intro {
   display: flex;
-  background-color: #16262E;
+  background-color: #16262e;
   color: #fff;
 
   @include mobile {
@@ -14,14 +14,14 @@
   .left {
     flex: 0.5;
 
-    .imgContainer{
+    .imgContainer {
       height: 50%;
 
       img {
         border-radius: 50%;
         height: 90vh;
         margin-left: 80px;
-  
+
         @include mobile {
           margin: 0;
           margin-top: 80px;
@@ -31,7 +31,6 @@
         }
       }
     }
-
   }
 
   .right {
@@ -86,6 +85,9 @@
 
         img {
           width: 50px;
+          color: #f00;
+          -webkit-filter: invert(100%);
+          filter: invert(100%);
           animation: arrowBlink 2s infinite;
 
           @include mobile {
