@@ -15,7 +15,7 @@
     color: rgb(255, 255, 255);
 
     @include mobile {
-      display: none;
+      margin-bottom: 650px;
     }
 
     &.left {
@@ -34,8 +34,7 @@
     transition: all 1s ease-out;
 
     @include mobile {
-      display: flex;
-      height: 90vh;
+      height: 100vh;
     }
 
     .worksContainer {
@@ -46,7 +45,9 @@
       justify-content: center;
       flex-direction: column;
 
-      .title{
+      @include mobile {}
+
+      .title {
         color: $mainText;
 
         h1 {
@@ -54,11 +55,11 @@
           font-size: 40px;
           font-weight: 700;
           color: $mainText;
-    
+
           @include mobile {
-            font-size: 25px;
-            margin-bottom: 0;
+            margin-right: 0;
           }
+
         }
       }
 
@@ -67,12 +68,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-      }
-
-      @include mobile {
-        width: 90vw;
-        height: 20vh;
-        margin: 5px;
       }
 
       .title {
@@ -85,60 +80,73 @@
       }
 
       .item {
-        overflow: hidden;
-        width: 900px;
-        height: 100%;
         background-color: #fff;
         border-radius: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
 
-        .left {
-          flex: 4;
-          height: 110%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+        @include mobile {
+         width: 90%;
+         height: 450px;
+        }
+      }
 
-          .leftContainer {
-            width: 95%;
-            height: 70%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+      .left {
+        flex: 4;
+        height: 110%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-        
-
-            h2 {
-              font-size: 30px;
-              font-weight: 600;
-              font-family: "Sanchez", serif;
-            }
-            p {
-              font-size: 14px;
-            }
-            a {
-              color: #000;
-              font-size: 17px;
-              font-weight: 600;
-              cursor: pointer;
-              text-decoration: underline;
-              text-align: center;
-            }
-          }
+        @include mobile {
+          width: 90vw;
         }
 
-        .right {
-          flex: 8;
-          height: 100%;
+        .leftContainer {
+          width: 95%;
+          height: 70%;
           display: flex;
-          align-items: center;
-          justify-content: center;
+          flex-direction: column;
+          justify-content: space-between;
 
-          img {
-            width: 550px;
+          @include mobile {
+            width: 60vw;
+            flex-direction: column;
           }
+
+          h2 {
+            font-size: 30px;
+            font-weight: 600;
+            font-family: "Sanchez", serif;
+          }
+          p {
+            font-size: 14px;
+          }
+          a {
+            color: #000;
+            font-size: 17px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: underline;
+            text-align: center;
+          }
+        }
+      }
+
+      .right {
+        flex: 8;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include mobile {
+          flex-direction: row;
+        }
+
+        img {
+          width: 550px;
         }
       }
     }
