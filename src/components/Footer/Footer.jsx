@@ -4,7 +4,7 @@ import { GitHub, LinkedIn } from "@material-ui/icons";
 
 export default function Footer() {
   return (
-    <div className="footer" id="footer">
+    <div className="mainFooter" id="footer">
       <div className="container">
         <hr />
         <div className="row">
