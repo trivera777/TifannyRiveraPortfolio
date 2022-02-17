@@ -7,6 +7,7 @@ import Works from './components/Works/Works'
 import About from './components/About/About'
 import Clients from './components/Clients/Clients'
 import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 import './app.scss'
 
@@ -23,6 +24,7 @@ function App() {
                 <Works />
                 <Clients />
                 {/* <Contact /> */}
+                <Footer />
             </div>
         </div>
     )
