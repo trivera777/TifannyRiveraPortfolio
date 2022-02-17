@@ -3,7 +3,16 @@
 .footer {
     width: 100%;
     height: 70px;
-  background-color: $mainColor;
-  bottom: 0;
-  
+    background-color: $mainColor;
+    color: $mainText;
+    position: sticky;
+    bottom: 0;
+
+    .icon {
+        margin: 5px;
+    }
+
+    .footerBottom {
+        text-align: center;
+    }
 }

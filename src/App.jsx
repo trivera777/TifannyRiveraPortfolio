@@ -8,6 +8,8 @@ import About from './components/About/About'
 import Clients from './components/Clients/Clients'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import './app.scss'
 
