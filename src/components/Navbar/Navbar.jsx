@@ -1,14 +1,5 @@
 import React from "react";
 import "./navbar.scss";
-import {
-  Person,
-  Mail,
-  GitHub,
-  LinkedIn,
-  Instagram,
-  Attachment,
-  VerifiedUser,
-} from "@material-ui/icons";
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
   return (
@@ -18,18 +9,26 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
           <a href="#intro" className="logo">
             tifanny rivera
           </a>
-          <div className="itemContainer">
-            <a href="#about">about</a>
+          {/* <div className="itemContainer">
+            <a href="#about" className="btn-one">
+              about
+            </a>
+            </div> */}
+            <div className="itemContainer">
+            <a href="#works" className="btn-one">
+              projects
+            </a>
           </div>
           <div className="itemContainer">
-            <a href="#works">projects</a>
+            <a href="#clients" className="btn-one">
+              freelance work
+            </a>
           </div>
-          <div className="itemContainer">
-            <a href="#clients">freelance work</a>
-          </div>
-          <div className="itemContainer">
-            <a href="#contact">contact</a>
-          </div>
+          {/* <div className="itemContainer">
+            <a href="#contact" className="btn-one">
+              contact
+            </a>
+          </div> */}
           {/* <div className="itemContainer">
             <a href="https://github.com/trivera777" target="_blank">
               <GitHub className="icon" style={{ fontSize: "45px" }} />
