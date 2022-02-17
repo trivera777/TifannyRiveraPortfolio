@@ -26,8 +26,8 @@ function App() {
                 <Works />
                 <Clients />
                 {/* <Contact /> */}
-                <Footer />
             </div>
+                <Footer />
         </div>
     )
 }
