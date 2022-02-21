@@ -1,6 +1,6 @@
 @import "../../global.scss";
 @import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
 .clients {
   display: flex;
   align-items: center;
@@ -49,6 +49,11 @@
 
        @include mobile {
          margin-top: -20px;
+         font-size: 11;
+       }
+
+       h2 {
+        font-family: 'Oooh Baby', cursive;
        }
 
        img {
