@@ -1,5 +1,5 @@
 @import "../../global.scss";
-@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
 .clients {
   display: flex;
@@ -20,8 +20,8 @@
 
     .clientsContainer {
       padding: 20px;
-      width: 40vw;
-      height: 85vh;
+      width: 60vw;
+      height: 70vh;
       align-items: center;
       flex-direction: column;
       border-radius: 20px;
@@ -53,7 +53,7 @@
        }
 
        h2 {
-        font-family: 'Oooh Baby', cursive;
+        font-family: 'Playfair Display SC', serif;
        }
 
        img {
