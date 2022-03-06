@@ -76,10 +76,8 @@ export default function Works() {
       >
         {data.map((d) => (
           <div className="worksContainer">
-                  <div className="title">
-                          <h1>projects.</h1>
-                        </div>
             <div className="item">
+            <div className="worksTitle">freelance work.</div>
               <div className="left">
                 <div className="leftContainer">
                   <h2>{d.title}</h2>

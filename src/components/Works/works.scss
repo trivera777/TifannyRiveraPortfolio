@@ -46,20 +46,18 @@
       justify-content: center;
       flex-direction: column;
 
-      .title{
-        color: $mainText;
-
-        h1 {
-          margin-right: 650px;
-          font-size: 40px;
+      .worksTitle{
+          display: flex;
+          font-size: 35px;
           font-weight: 700;
-          color: $mainText;
+          color: #212529;
+          flex-direction: row;
     
           @include mobile {
             font-size: 25px;
             margin-bottom: 0;
           }
-        }
+        
       }
 
       .title {
