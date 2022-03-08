@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./body.scss";
 
 export default function Body() {
