@@ -1,7 +1,5 @@
 import React from "react";
 import Web from './web/Web'
-import MenuIcon from '@mui/icons-material/Menu';
-// import { MenuIcon } from '@material-ui/core';
 import "./header.scss";
 
 export default function Header() {
@@ -14,7 +12,7 @@ export default function Header() {
             {/* <Web /> */}
           </div>
           <div className="mobileMenu">
-           <MenuIcon />
+           <Widgets />
             mobile</div>
         </div>
       </div>
