@@ -1,4 +1,6 @@
 import React from "react";
+import Web from './web/Web'
+// import { MenuIcon } from '@material-ui/core';
 import "./header.scss";
 
 export default function Header() {
@@ -7,8 +9,12 @@ export default function Header() {
       <div className="logo">
         tifanny rivera
         <div className="menu">
-          <div className="webMenu">web</div>
-          <div className="mobileMenu">mobile</div>
+          <div className="webMenu">
+            {/* <Web /> */}
+          </div>
+          <div className="mobileMenu">
+            {/* <MenuIcon /> */}
+            mobile</div>
         </div>
       </div>
     </div>
