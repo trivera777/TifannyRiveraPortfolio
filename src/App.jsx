@@ -1,35 +1,18 @@
-import React from 'react';
-import { useState } from 'react';
-import Navbar from './components/Navbar/Navbar'
-import Menu from './components/Menu/Menu'
-import Intro from './components/Intro/Intro'
-import Works from './components/Works/Works'
-import About from './components/About/About'
-import Clients from './components/Clients/Clients'
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/Footer'
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-import './app.scss'
+import React from "react";
+import Home from "./components/Home/Home";
+import Body from "./components/Body/Body";
+import Footer from "./components/Footer/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./app.scss";
 
 function App() {
-    const [menuOpen, setMenuOpen] = useState(false);
-    return (
-        <div className="app">
-            <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-            <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-            <Menu />
-            <div className="sections">
-                <Intro />
-                {/* <About /> */}
-                <Works />
-                <Clients />
-                {/* <Contact /> */}
-            </div>
-                <Footer />
-        </div>
-    )
+  return (
+    <div className="app">
+        <Home />
+        <Body />
+        <Footer />
+    </div>
+  );
 }
 
 export default App;
