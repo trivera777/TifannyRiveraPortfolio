@@ -53,5 +53,10 @@ button {
     transition:  0.5s all;
     cursor: pointer;
     color: #000;
+
+    &:hover {
+      background: linear-gradient(145deg, #e2e8ec, #ffffff);
+      box-shadow: 4px 4px8px #cbcbcb, 4px 4px 8px #ffffff;
+    }
   }
 }
