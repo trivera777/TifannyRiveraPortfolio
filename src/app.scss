@@ -50,5 +50,8 @@ button {
   .btnShadow {
     padding: 18px 25px;
     border-radius: 6px;
+    transition:  0.5s all;
+    cursor: pointer;
+    color: #000;
   }
 }
