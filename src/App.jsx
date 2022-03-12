@@ -4,11 +4,15 @@ import "./app.scss";
 import React from "react";
 import Home from "./components/Home/Home";
 import GlobalStyle from "./globalStyles";
+import { ThemeProvider } from "styled-components";
 
 function App() {
   return (
     <>
     <GlobalStyle />
+    <ThemeProvider>
+      
+    </ThemeProvider>
         <Home />
     </>
   );
