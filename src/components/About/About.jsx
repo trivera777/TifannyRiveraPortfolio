@@ -1,9 +1,9 @@
 import React from "react";
-import "./body.scss";
+import "./about.scss";
 
 export default function Body() {
 
   return (
-  <div>body</div>
+  <div>about</div>
   );
 }

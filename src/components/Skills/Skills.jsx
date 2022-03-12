@@ -1,5 +1,5 @@
 import React from 'react'
-import './menu.scss'
+import './skills.scss'
 
 export default function Menu(){
     return (
