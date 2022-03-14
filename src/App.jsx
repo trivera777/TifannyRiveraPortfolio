@@ -14,16 +14,10 @@ import "./app.scss";
 function App() {
   return (
     <>
-    <GlobalStyle />
-    <ThemeProvider theme={lightTheme}>
-    <Switch>
-      <Router exact path="/" component={Home} />
-      <Router exact path="/" component={About} />
-      <Router exact path="/" component={Skills} />
-      <Router exact path="/" component={Work} />
-      <Router exact path="/" component={Contact} />
-    </Switch>
-    </ThemeProvider>
+    <Projects />
+    <Skills />
+    <Work />
+    <Contact />
     </>
   );
 }
