@@ -1,6 +1,6 @@
 import React from "react";
 import Projects from "./components/Projects/Projects";
-import About from "./components/Home/Home";
+import Home from "./components/Home/Home";
 import Skills from "./components/Skills/Skills";
 import Work from "./components/Work/Work"
 import Contact from "./components/Contact/Contact";
@@ -10,7 +10,7 @@ import "./app.scss";
 function App() {
   return (
     <>
-    <About />
+    <Home />
     <Projects />
     <Skills />
     <Work />
