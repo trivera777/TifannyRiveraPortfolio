@@ -1,10 +1,10 @@
 import React from 'react'
 import './skills.scss'
 
-export default function Menu(){
+export default function Skills(){
     return (
-        <div>
-            sidemenu
+        <div className="skills" id="skills">
+            skills
         </div>
     )
 }
