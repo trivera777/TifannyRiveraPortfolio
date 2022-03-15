@@ -8,6 +8,9 @@ export default function Header() {
             <div className="webMenu" >
                 web
             </div>
+            <div className="mobileMenu">
+                mobile
+            </div>
         </div>
       header
     </div>
