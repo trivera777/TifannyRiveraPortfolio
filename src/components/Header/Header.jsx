@@ -1,25 +1,25 @@
 import React from "react";
 import Web from "./Web";
 import Mobile from "./Mobile";
-import { useState } from 'react'
+import { useState } from "react";
 import "./header.scss";
 
 export default function Header() {
-    const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="header" id="header">
-        <div className="menu">
-            <div className="webMenu" >
-                <Web />
-            </div>
-            <div className="mobileMenu">
-                <div onClick={() => setIsOpen(!isOpen)} >
-                <i className="fi fi-rr-apps icon"></i>
-                </div>
-                { isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
-            </div>
+      <div className="menu">
+        <div className="webMenu">
+          <Web />
         </div>
-      header
+        <div className="mobileMenu">
+          <div onClick={() => setIsOpen(!isOpen)}>
+            <i className="fi fi-rr-apps menuIcon"> </i>
+          </div>
+          {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
+        </div>
+      </div>
+      
     </div>
   );
 }

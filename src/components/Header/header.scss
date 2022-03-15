@@ -1,3 +1,39 @@
-.icon {
-    cursor: pointer;
+.header {
+    display: flex;
+    background-color: #237894;
+    justify-content: space-between;
+    flex: 1;
+    padding: 12px;
+    position: relative;
+    align-items: center;
+
+    .menu {
+        background-color: #fff;
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+
+        .menuIcon {
+            cursor: pointer;
+            font-size: 25px;
+        }
+
+        .mobileMenu {
+            display: none;
+        }
+
+        .webMenu {
+            display: flex;
+        }
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .mobileMenu {
+        display: flex;
+    }
+
+    .webMenu {
+        display: none ;
+    }
 }
