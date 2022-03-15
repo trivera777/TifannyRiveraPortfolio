@@ -14,9 +14,9 @@ export default function Header() {
             </div>
             <div className="mobileMenu">
                 <div onClick={() => setIsOpen(!isOpen)} >
-                <i className="fi fi-rr-apps"></i>
+                <i className="fi fi-rr-apps icon"></i>
                 </div>
-                { isOpen && <Mobile />}
+                { isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
             </div>
         </div>
       header
