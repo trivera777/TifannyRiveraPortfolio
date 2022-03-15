@@ -1,4 +1,6 @@
 import React from "react";
+import Web from "./Web";
+import Mobile from "./Mobile";
 import "./header.scss";
 
 export default function Header() {
@@ -6,10 +8,10 @@ export default function Header() {
     <div className="header" id="header">
         <div className="menu">
             <div className="webMenu" >
-                web
+                <Web />
             </div>
             <div className="mobileMenu">
-                mobile
+                <Mobile />
             </div>
         </div>
       header
