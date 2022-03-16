@@ -1,4 +1,5 @@
 import React from "react";
+import Social from '../SocialBar/Social'
 import "./about.scss";
 
 export default function About() {
@@ -8,17 +9,18 @@ export default function About() {
         <div className="aboutInfo">
           Hello there, I am
           <br /><span className="infoName">Tifanny Rivera</span>
-          <br /> front-end developer.
+          <br />a front-end developer.
         </div>
         <div className="aboutPhoto">
           <img
-            src="../assets/Hand coding-rafiki.png"
+            src="../assets/Source code-pana.png"
             className="picture"
             alt="gif"
           />{" "}
         </div>
       </div>
-      <div className="aboutBottom"></div>
+      <Social />
     </div>
   );
 }
+ 
