@@ -1,4 +1,4 @@
-export const SocialData = [
+export const ProjectData = [
     {
       id: "1",
       title: "Project",
