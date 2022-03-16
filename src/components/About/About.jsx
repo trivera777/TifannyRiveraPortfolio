@@ -1,10 +1,18 @@
 import React from 'react'
 import './about.scss'
 
-export default function Body(){
+export default function About(){
     return (
-        <div className="body" id="body">
-            about
+        <div className="about" id="about">
+            <div className="aboutTop">
+                <div className="aboutInfo">
+                    Hello there, I am Tifanny Rivera, a front-end developer. 
+                </div>
+                <div className="aboutPhoto"></div>
+            </div>
+            <div className="aboutBottom">
+
+            </div>
         </div>
     )
 }

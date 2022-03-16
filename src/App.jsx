@@ -10,23 +10,25 @@ import "./app.scss";
 
 export default function App() {
   return (
-    <div className="body">
+    <>
       <Header />
-      <section id="about">
-        <About />
-      </section>
-      <section id="projects">
-        <Projects />
-      </section>
-      <section id="skills">
-        <Skills />
-      </section>
-      <section id="work">
-        <Work />
-      </section>
-      <section id="contact">
-        <Contact />
-      </section>
-    </div>
+      <div className="body">
+        <section id="about">
+          <About />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="work">
+          <Work />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
+      </div>
+    </>
   );
-};
+}
