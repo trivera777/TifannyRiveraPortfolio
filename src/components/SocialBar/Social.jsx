@@ -1,4 +1,5 @@
 import React from "react";
+import { SocialData } from  './data.jsx';
 import "./social.scss";
 
 export default function Social() {
