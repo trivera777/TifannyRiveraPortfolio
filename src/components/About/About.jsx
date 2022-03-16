@@ -8,8 +8,8 @@ export default function About() {
       <div className="aboutTop">
         <div className="aboutInfo">
           Hello there, I am
-          <br /><span className="infoName">Tifanny Rivera</span>
-          <br />a front-end developer.
+          <br /><span className="infoName">Tifanny Rivera.</span>
+          <br />Front-end developer.
           <i className="fi fi-brands-instagram"></i>
         </div>
         <div className="aboutPhoto">
