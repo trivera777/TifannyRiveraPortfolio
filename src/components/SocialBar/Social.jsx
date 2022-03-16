@@ -8,9 +8,11 @@ export default function Social() {
     <div className="social" id="social">
       {data.map((item) => {
         return (
-          <a href={item.link}>
+          <a href={item.link} key={item.link}>
             <div className="socialBar">
-              <img src={item.icon} className="socialIcon" />
+              <img src={item.icon} className="socialIcon" alt="Social Media Icon"/>
+    
+
             </div>
           </a>
         );

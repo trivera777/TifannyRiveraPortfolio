@@ -10,6 +10,7 @@ export default function About() {
           Hello there, I am
           <br /><span className="infoName">Tifanny Rivera</span>
           <br />a front-end developer.
+          <i className="fi fi-brands-instagram"></i>
         </div>
         <div className="aboutPhoto">
           <img
