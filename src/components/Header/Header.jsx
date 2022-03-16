@@ -1,6 +1,6 @@
 import React from "react";
-import Web from "./Web";
-import Mobile from "./Mobile";
+import Web from "./Web/Web";
+import Mobile from "./Mobile/Mobile";
 import { useState } from "react";
 import "./header.scss";
 

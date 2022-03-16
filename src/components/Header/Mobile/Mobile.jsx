@@ -1,5 +1,5 @@
 import React from "react";
-import "./mobile.scss";
+import "../Mobile/mobile.scss";
 
 export default function Mobile({ isOpen, setIsOpen }) {
   return (
