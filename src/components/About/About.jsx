@@ -14,7 +14,7 @@ export default function About() {
         <div className="aboutPhoto">
           <img
             src="../assets/Source code-pana.png"
-            className="picture"
+            className="aboutPhoto"
             alt="gif"
           />{" "}
         </div>
