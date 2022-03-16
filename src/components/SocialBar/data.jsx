@@ -12,6 +12,6 @@ export const SocialData = [
   {
     platform: "Instagram",
     icon: "./assets/instagram.png",
-    link: "",
+    link: "https://instagram.com/tifann_y",
   },
 ];
