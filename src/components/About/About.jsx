@@ -7,10 +7,8 @@ export default function About() {
       <div className="aboutTop">
         <div className="aboutInfo">
           Hello there, I am
-          <br />
-          <span className="infoName">Tifanny Rivera</span>
-          <br />
-          front-end developer.
+          <br /><span className="infoName">Tifanny Rivera</span>
+          <br /> front-end developer.
         </div>
         <div className="aboutPhoto">
           <img

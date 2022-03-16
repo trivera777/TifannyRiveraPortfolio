@@ -19,7 +19,6 @@ export default function Header() {
           {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
         </div>
       </div>
-      
     </div>
   );
 }
