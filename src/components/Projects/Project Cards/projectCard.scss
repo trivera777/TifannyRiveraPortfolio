@@ -1,0 +1,12 @@
+.projectCard{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0px;
+    padding: 8px 0px;
+
+    .projectImg {
+        width: 50%;
+    }
+}

@@ -6,7 +6,7 @@ export const ProjectData = [
       tags:["ReactJS"],
       demo:'demo',
       github:'github',
-      image:'img'
+      image:'./assets/merakioasis.png'
     },
     {
       id: "2",
