@@ -1,39 +1,38 @@
 export const ProjectData = [
     {
       id: "1",
-      title: "Project",
+      title: "Meraki Oasis",
       about: "",
-      tags:["ReactJS"],
-      demo:'demo',
-      github:'github',
-      image:'./assets/merakioasis.png'
+      tags:["Wix.com"],
+      demo:'https://www.merakioasis.store/',
+      image:'./assets/meraki.png'
     },
     {
       id: "2",
       title: "project",
       about: "",
       tags:["ReactJS"],
-      demo:'demo',
-      github:'github',
+      demo:'https://tr-socialmediaapp.herokuapp.com/',
+      github:'https://github.com/trivera777/SocialMediaApp',
       image:'img'
     },
     {
       id: "3",
-      title: "project",
+      title: "National Parks Day Trip Planner",
       about: "this project is about",
-      tags:["ReactJS"],
-      demo:'demo',
-      github:'github',
-      image:'img'
+      tags:["HTML", "CSS", "JavaScript", 'JQuery', 'Bulma'],
+      demo:'https://trivera777.github.io/National-Parks-Day-Trip-Planner/',
+      github:'https://github.com/trivera777/National-Parks-Day-Trip-Planner',
+      image:'./assets/np.png'
     },
     {
       id: "4",
-      title: "project",
+      title: "Tech Blog",
       about: "this project is about",
-      tags:["ReactJS"],
-      demo:'demo',
-      github:'github',
-      image:'img'
+      tags:["JavaScript", 'Node.js', 'MongoDB', 'Handlebars', 'MVC', 'MySQL'],
+      demo:'https://tr-techblog.herokuapp.com/',
+      github:'https://github.com/trivera777/TechBlog',
+      image:'./assets/techblog.png'
     },
     {
       id: "5",
