@@ -3,7 +3,7 @@ import React from "react";
 import "./skills.scss";
 import { SkillsData } from './Data/SkillsData';
 import SkillCard from './Skill Card/SkillCard'
-import Separator from "../Separator/Separator";
+import Separator from "../Divider/Divider";
 
 export default function Skills() {
   const data = SkillsData;
