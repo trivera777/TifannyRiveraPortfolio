@@ -26,7 +26,7 @@ export const SkillsData =[
             },
             {
                 name:'GitHub',
-                icon: <i className="devicon-heroku-plain colored"></i>                ,
+                icon: <i className="devicon-github-original colored"></i>                ,
             }
         ]
     }
