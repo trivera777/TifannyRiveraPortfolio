@@ -21,12 +21,24 @@ export const SkillsData =[
                 icon: <i className="devicon-css3-plain colored"></i>                ,
             },
             {
+                name:'SASS',
+                icon: <i className="devicon-sass-original colored"></i>                ,
+            },
+            {
+                name:'Visual Studio Code',
+                icon: <i className="devicon-vscode-plain colored"></i>                ,
+            },
+            {
                 name:'Heroku',
                 icon: <i className="devicon-heroku-plain colored"></i>                ,
             },
             {
                 name:'GitHub',
                 icon: <i className="devicon-github-original colored"></i>                ,
+            },
+            {
+                name:'MaterialUI',
+                icon: <i className="devicon-materialui-plain colored"></i>                ,
             }
         ]
     }
