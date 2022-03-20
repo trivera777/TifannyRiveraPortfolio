@@ -9,11 +9,20 @@
     margin: 6px;
     border-radius: 8px;
 
+    @media only screen and (max-width: 720px) {
+        width: max-content;
+        height: 100%;
+      }
+
     .skillIcon{
         font-size: 80px;
+        @media only screen and (max-width: 720px) {
+            font-size: 60px;
+          }
     }
 
     .skillName{
         font-size: 18px;
     }
+    
 }

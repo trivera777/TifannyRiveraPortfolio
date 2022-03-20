@@ -1,0 +1,20 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .skillsSection {
+        display: flex;
+        justify-content: space-between;
+        margin: 12px 0px;
+
+        .label{
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .skillsList{
+            display: flex;
+        }
+    }
+}
