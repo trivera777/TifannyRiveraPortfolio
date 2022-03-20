@@ -1,7 +1,6 @@
 import React from "react";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
-import Work from "./components/Work/Work";
 import About from "./components/About/About";
 import Header from "./components/Header/Header";
 import Contact from "./components/Contact/Contact";
@@ -21,9 +20,6 @@ export default function App() {
         </section>
         <section id="skills">
           <Skills />
-        </section>
-        <section id="work">
-          <Work />
         </section>
         <section id="contact">
           <Contact />

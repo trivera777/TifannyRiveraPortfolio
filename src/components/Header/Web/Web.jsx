@@ -15,11 +15,6 @@ export default function Web() {
         </a>
       </div>
       <div className="webOption">
-        <a href="#work">
-          <i className="fi fi-rr-briefcase optionIcon"></i>Work
-        </a>
-      </div>
-      <div className="webOption">
         <a href="#contact">
           <i className="fi fi-rr-user optionIcon"></i>Contact
         </a>
