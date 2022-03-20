@@ -41,5 +41,18 @@ export const SkillsData =[
                 icon: <i className="devicon-materialui-plain colored"></i>                ,
             }
         ]
+    },
+    {
+        type: "Backend",
+        list: [
+            {
+                name:'MaterialUI',
+                icon: <i className="devicon-nodejs-plain colored"></i>                ,
+            },
+            {
+                name:'MaterialUI',
+                icon: <i className="devicon-mongodb-plain colored"></i>                ,
+            }
+        ]
     }
 ]
