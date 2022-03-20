@@ -25,7 +25,7 @@ export default function ProjectCard({ project }) {
         <p>{project.about}</p>
         <div className="projectTags">
           {project.tags.map((tag)=>{
-            return <label className="tag">{tag}</label>
+            return <label className="tag" key={tag}>{tag}</label>
           })}
         </div>
       </div>
