@@ -54,7 +54,7 @@
   }
 
   .projectTags {
-    font-size: flex;
+    display: flex;
     min-width: 60%;
     flex-wrap: wrap;
 
@@ -73,7 +73,7 @@
   }
 
   .projectImg {
-    width: 50%;
+    width: 40%;
 
     @media only screen and (max-width: 720px) {
       width: 70%;
