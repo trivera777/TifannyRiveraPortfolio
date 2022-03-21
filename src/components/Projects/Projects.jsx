@@ -9,7 +9,7 @@ export default function Projects() {
   return (
     <div className="projects" id="projects">
       <Divider />
-      <label className="projectTitle">Projects</label>
+      <label className="projectLabel">Projects.</label>
       {data.map((project, index) => {
         return <ProjectCard project={project} key={index} />;
       })}
