@@ -11,6 +11,7 @@ export default function Contact(){
             <div className="contactContainer">
                 <div className="contactLeft">
                     <p>Get in touch.</p>
+                    <img src='./assets/mail.png'className="mailIcon" ></img> trivera51580@gmail.com
                     <Social />
                 </div>
                 <div className="resume">
