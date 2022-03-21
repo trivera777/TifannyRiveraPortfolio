@@ -10,8 +10,10 @@ export default function Contact(){
             <label className="contactLabel">Contact.</label>
             <div className="contactContainer">
                 <div className="contactLeft">
-                    <p>Get in touch.</p>
-                    <i class="fi fi-rr-envelope"></i> trivera51580@gmail.com
+                    <p>
+                    <i class="fi fi-rr-envelope"></i> trivera51580@gmail.com <br/>
+                    <i class="fi fi-rr-call-incoming"></i>970.515.8586
+                    </p>
                     <Social />
                 </div>
                 <div className="resume">
