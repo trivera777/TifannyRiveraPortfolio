@@ -3,6 +3,11 @@
     flex-direction: column;
     width: 100%;
 
+    .skillsLabel{
+        font-size: 32px;
+        font-weight: 700;
+    }
+
     .skillsSection {
         display: flex;
         justify-content: space-between;

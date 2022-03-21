@@ -10,7 +10,7 @@ export default function Skills() {
   return (
     <div className="skills" id="skills">
       <Separator />
-      <label className="skillsTitle">Skills</label>
+      <label className="skillsLabel">Skills.</label>
       <div className="skillsContainer">
         {data.map((item) => {
           return (
