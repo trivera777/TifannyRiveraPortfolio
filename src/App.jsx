@@ -4,6 +4,7 @@ import Skills from "./components/Skills/Skills";
 import About from "./components/About/About";
 import Header from "./components/Header/Header";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./app.scss";
 
@@ -23,6 +24,9 @@ export default function App() {
         </section>
         <section id="contact">
           <Contact />
+        </section>
+        <section id="footer">
+          <Footer />
         </section>
       </div>
     </>
