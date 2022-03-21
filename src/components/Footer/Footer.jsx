@@ -4,7 +4,7 @@ import './footer.scss'
 export default function Footer(){
     return (
         <div className="footer" id="footer">
-            Made with React by Tifanny Rivera
+            Tifanny Rivera portfolio made with React.
         </div>
     )
 }
