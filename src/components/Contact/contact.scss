@@ -26,6 +26,10 @@
       font-size: 20px;
       text-align: center;
 
+      .mailIcon{
+        width: 25px;
+      }
+
       @media only screen and (max-width: 720px) {
        max-width: 100%;
        font-size: 16px;
