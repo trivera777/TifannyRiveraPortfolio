@@ -1,6 +1,10 @@
 .about {
   padding: 10px 80px;
 
+  @media only screen and (max-width: 720px) {
+    padding: 0px 0px;
+  }
+
   .aboutTop {
     display: flex;
     justify-content: space-between;
@@ -17,7 +21,8 @@
       margin-left: 150px;
 
       @media only screen and (max-width: 720px) {
-        font-size: 17px;
+        font-size: 23px;
+        margin-left: 0px;
       }
 
       .infoName {
