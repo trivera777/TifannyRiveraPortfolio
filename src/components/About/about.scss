@@ -1,5 +1,5 @@
 .about {
-  padding-bottom: 48px;
+  padding: 10px 80px;
 
   .aboutTop {
     display: flex;
@@ -13,7 +13,8 @@
     }
 
     .aboutInfo {
-      font-size: 24px;
+      font-size: 30px;
+      margin-left: 150px;
 
       @media only screen and (max-width: 720px) {
         font-size: 17px;
@@ -21,7 +22,7 @@
 
       .infoName {
         color: #c53f3f;
-        font-size: 27px;
+        font-size: 35px;
         font-weight: 700;
 
         @media only screen and (max-width: 720px) {
