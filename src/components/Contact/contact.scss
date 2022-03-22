@@ -1,11 +1,14 @@
+@import "../../global.scss";
+
 .contact {
   display: flex;
   flex-direction: column;
   flex: 1;
 
   .contactLabel {
+    font-family: $mainFont;
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   .contactContainer {
