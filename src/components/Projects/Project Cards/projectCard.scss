@@ -11,7 +11,11 @@
   }
 
   .projectInfo {
-    margin-right: 24px;
+    padding: 50px;
+
+    p {
+      margin-top: 15px;
+    }
 
     @media only screen and (max-width: 720px) {
       margin-left: 0px;
