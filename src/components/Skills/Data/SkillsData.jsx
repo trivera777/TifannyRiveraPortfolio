@@ -46,7 +46,7 @@ export const SkillsData =[
         type: "Backend",
         list: [
             {
-                name:'MaterialUI',
+                name:'NodeJS',
                 icon: <i className="devicon-nodejs-plain colored"></i>                ,
             },
             {
