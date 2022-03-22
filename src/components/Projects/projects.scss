@@ -1,10 +1,13 @@
+@import "../../global.scss";
+
 .projects{
     display: flex;
     flex-direction: column;
     flex: 1;
 
     .projectLabel {
-        font-size: 32px;
-        font-weight: 700;
+        font-family: $mainFont;
+        font-size: 35px;
+        font-weight: 500;
       }
 }
