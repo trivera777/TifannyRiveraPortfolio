@@ -1,11 +1,14 @@
+@import "../../global.scss";
+
 .skills{
     display: flex;
     flex-direction: column;
     width: 100%;
 
     .skillsLabel{
+        font-family: $mainFont;
         font-size: 32px;
-        font-weight: 700;
+        font-weight: 500;
     }
 
     .skillsSection {
