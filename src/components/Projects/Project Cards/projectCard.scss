@@ -25,19 +25,20 @@
       .linkButton {
         display: flex;
         justify-content: center;
+        background-color: rgb(244, 244, 244);
         align-items: center;
-        background-color: #c53f3f;
         width: max-content;
-        color: #fff;
-        padding: 4px 8px;
+        color: #000;
+        padding: 5px 8px;
         border-radius: 4px;
-        font-size: 15px;
+        font-size: 16px;
         margin-right: 6px;
 
         i {
           display: flex;
           align-items: center;
           mask-repeat: 4px;
+          margin-right: 4px;
         }
       }
     }
@@ -63,12 +64,14 @@
     }
 
     .tag {
-      padding: 4px 8px;
-      background-color: #c53f3f;
-      color: #fff;
+      padding: 6px 8px;
+      background-color: rgb(244, 244, 244);
+      color: #000;
+      font-weight: 500;
       border-radius: 4px;
       margin-right: 6px;
       margin-bottom: 4px;
+      font-size: 15px;
     }
   }
 

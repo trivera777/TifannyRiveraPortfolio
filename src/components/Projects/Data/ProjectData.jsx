@@ -2,7 +2,7 @@ export const ProjectData = [
     {
       id: "1",
       title: "Meraki Oasis",
-      about: "",
+      about: "This is my first freelance project that I had the ",
       tags:["Wix.com"],
       demo:'https://www.merakioasis.store/',
       image:'./assets/meraki.png'
@@ -19,7 +19,7 @@ export const ProjectData = [
     {
       id: "3",
       title: "National Parks Day Trip Planner",
-      about: "this project is about",
+      about: "This National Parks Day Trip Planner helps you plan your next trip to any state in the United States.",
       tags:["HTML", "CSS", "JavaScript", 'JQuery', 'Bulma'],
       demo:'https://trivera777.github.io/National-Parks-Day-Trip-Planner/',
       github:'https://github.com/trivera777/National-Parks-Day-Trip-Planner',
