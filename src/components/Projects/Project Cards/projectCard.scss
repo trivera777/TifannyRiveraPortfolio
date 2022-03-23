@@ -8,10 +8,11 @@
 
   @media only screen and (max-width: 720px) {
     flex-direction: column-reverse;
+    padding: 0;
   }
 
   .projectInfo {
-    padding: 50px;
+    margin: 50px;
 
     p {
       margin-top: 15px;

@@ -11,8 +11,8 @@ export default function Contact(){
             <div className="contactContainer">
                 <div className="contactLeft">
                     <p>
-                    <i class="fi fi-rr-envelope"></i> trivera51580@gmail.com <br/>
-                    <i class="fi fi-rr-call-incoming"></i>970.515.8586
+                    <i className="fi fi-rr-envelope icon"></i> trivera51580@gmail.com <br />
+                    <i className="fi fi-rr-call-incoming icon"></i>970.515.8586
                     </p>
                     <Social />
                 </div>
