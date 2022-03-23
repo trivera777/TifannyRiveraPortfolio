@@ -17,12 +17,16 @@
     .skillIcon{
         font-size: 70px;
         @media only screen and (max-width: 720px) {
-            font-size: 35px;
+            font-size: 45px;
           }
     }
 
     .skillName{
         font-size: 17px;
+
+        @media only screen and (max-width: 720px){
+            font-size: 15px;
+        }
     }
     
 }

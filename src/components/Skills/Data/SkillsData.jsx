@@ -25,7 +25,7 @@ export const SkillsData =[
                 icon: <i className="devicon-sass-original colored"></i>                ,
             },
             {
-                name:'Visual Studio Code',
+                name:'VS Code',
                 icon: <i className="devicon-vscode-plain colored"></i>                ,
             },
             {
