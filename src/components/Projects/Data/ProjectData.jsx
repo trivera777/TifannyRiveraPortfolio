@@ -2,7 +2,7 @@ export const ProjectData = [
     {
       id: "1",
       title: "Meraki Oasis",
-      about: "This is my first freelance project that I had the ",
+      about: "I had the opportunity to work with my friend and business owner, Jasmin Ponce. Although her clothing site was made with Wix.com, it was an awesome learning experience for my first freelance job.",
       tags:["Wix.com"],
       demo:'https://www.merakioasis.store/',
       image:'./assets/meraki.png'
