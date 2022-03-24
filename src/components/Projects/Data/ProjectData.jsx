@@ -14,7 +14,7 @@ export const ProjectData = [
       tags:["ReactJS"],
       demo:'https://tr-socialmediaapp.herokuapp.com/',
       github:'https://github.com/trivera777/SocialMediaApp',
-      image:'./assets/newpost.png'
+      image:'./assets/socialbuzz.png'
     },
     {
       id: "3",
