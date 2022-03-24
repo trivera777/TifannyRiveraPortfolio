@@ -13,7 +13,7 @@ export const ProjectData = [
       about: "This is a mock social media application where user can login and create a username. When the user is signed in they are able to delete their own posts and will have the option to logout.",
       tags:["ReactJS", "React Bootstrap"],
       demo:'https://tr-socialmediaapp.herokuapp.com/',
-      github:'https://github.com/trivera777/SocialMediaApp',
+      github:'https://github.com/trivera777/SocialBuzz',
       image:'./assets/socialbuzz.png'
     },
     {
@@ -29,7 +29,7 @@ export const ProjectData = [
       id: "4",
       title: "Tech Blog",
       about: "This app is a tech blog that allows users to create a profile to be able to create, edit and delete their own blog posts. User is also able to comment on other users posts.",
-      tags:["JavaScript", 'Node.js', 'MongoDB', 'Handlebars', 'MVC', 'MySQL'],
+      tags:["JavaScript", 'Node.js', 'Express.js', 'Handlebars.js', 'MVC', 'MySQL', 'Sequelize'],
       demo:'https://tr-techblog.herokuapp.com/',
       github:'https://github.com/trivera777/TechBlog',
       image:'./assets/techblog.png'
