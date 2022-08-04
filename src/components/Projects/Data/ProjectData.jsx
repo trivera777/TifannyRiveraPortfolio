@@ -34,15 +34,15 @@ export const ProjectData = [
       github:'https://github.com/trivera777/TechBlog',
       image:'./assets/techblog.png'
     },
-    // {
-    //   id: "5",
-    //   title: "project",
-    //   about: "this project is about",
-    //   tags:["ReactJS"],
-    //   demo:'demo',
-    //   github:'github',
-    //   image:'img'
-    // },
+    {
+      id: "5",
+      title: "To Do list",
+      about: "This is a simple To-Do List. List your items and once they are completed you can click the item once to cross it off and when you are ready you can delete the item off the list.",
+      tags:["HTML", "CSS", "JavaScript"],
+      demo:'https://trivera777.github.io/ToDoList/',
+      github:'https://github.com/trivera777/ToDoList',
+      image:'./assets/list.png'
+    },
     // {
     //   id: "6",
     //   title: "project",
