@@ -53,7 +53,7 @@ export const ProjectData = [
     //   image:'img'
     // }
     // {
-    //   id: "6",
+    //   id: "7",
     //   title: "project",
     //   about: "this project is about",
     //   tags:["ReactJS"],
@@ -62,7 +62,7 @@ export const ProjectData = [
     //   image:'img'
     // }
     // {
-    //   id: "6",
+    //   id: "8",
     //   title: "project",
     //   about: "this project is about",
     //   tags:["ReactJS"],
