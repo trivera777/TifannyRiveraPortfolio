@@ -30,6 +30,7 @@ export default function ProjectCard({ project }) {
         </div>
       </div>
         <img src={project.image} className="projectImg" alt="Project" />
+        
     </div>
   );
 }
