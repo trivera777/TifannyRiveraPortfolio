@@ -5,6 +5,7 @@ export const ProjectData = [
       about: "I had the opportunity to work with my friend and business owner, Jasmin Ponce. Although her clothing site was made with Wix.com, it was an awesome learning experience for my first freelance job.",
       tags: ["HTML", "SASS", "ReactJS", "React Bootstrap"],
       demo:'https://www.merakioasis.store/',
+      github:'https://github.com/trivera777/AbsoluteNotaryLLC',
       image:'./assets/meraki.png'
     },
     {
