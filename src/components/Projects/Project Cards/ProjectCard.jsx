@@ -8,14 +8,14 @@ export default function ProjectCard({ project }) {
         <label className="projectTitle">{project.title}</label>
         <div className="projectLinks">
           {project.demo && (
-            <a className="projectLink" href={project.demo}>
+            <a className="projectLink" href={project.demo}  target="_blank">
               <div className="linkButton">
                 <i className="fi fi-rr-globe"></i>Demo
               </div>
             </a>
           )}
           {project.github && (
-            <a className="projectLink" href={project.github}>
+            <a className="projectLink" href={project.github} target="_blank">
               <div className="linkButton">
               <i className="devicon-github-original"></i>Github
               </div>
