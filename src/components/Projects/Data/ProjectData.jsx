@@ -1,13 +1,13 @@
 export const ProjectData = [
-    {
-      id: "1",
-      title: "Absolute Notary",
-      about: "I had the opportunity to work with my friend and business owner, Jasmin Ponce. Although her clothing site was made with Wix.com, it was an awesome learning experience for my first freelance job.",
-      tags: ["HTML", "CSS", "ReactJS", "React Bootstrap"],
-      demo:'https://www.merakioasis.store/',
-      github:'https://github.com/trivera777/AbsoluteNotaryLLC',
-      image:'./assets/'
-    },
+    // {
+    //   id: "1",
+    //   title: "Absolute Notary",
+    //   about: "I had the opportunity to work with my friend and business owner, Jasmin Ponce. Although her clothing site was made with Wix.com, it was an awesome learning experience for my first freelance job.",
+    //   tags: ["HTML", "CSS", "ReactJS", "React Bootstrap"],
+    //   demo:'https://www.merakioasis.store/',
+    //   github:'https://github.com/trivera777/AbsoluteNotaryLLC',
+    //   image:'./assets/'
+    // },
     {
       id: "2",
       title: "Portfolio",
