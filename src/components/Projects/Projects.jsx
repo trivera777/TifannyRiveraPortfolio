@@ -8,6 +8,7 @@ export default function Projects() {
   const data = ProjectData;
   return (
     <div className="projects" id="projects">
+      
       <Divider />
       <label className="projectLabel">Projects.</label>
       {data.map((project, index) => {
