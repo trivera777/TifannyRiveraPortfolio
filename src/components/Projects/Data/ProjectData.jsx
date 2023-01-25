@@ -37,15 +37,6 @@ export const ProjectData = [
     },
     {
       id: "4",
-      title: "Tech Blog",
-      about: "This app is a tech blog that allows users to create a profile to be able to create, edit and delete their own blog posts. User is also able to comment on other users posts.",
-      tags:["JavaScript", 'Node.js', 'Express.js', 'Handlebars.js', 'MVC', 'MySQL', 'Sequelize'],
-      demo:'https://tr-techblog.herokuapp.com/',
-      github:'https://github.com/trivera777/TechBlog',
-      image:'./assets/techblog.png'
-    },
-    {
-      id: "4",
       title: "To Do list",
       about: "This is a simple To-Do List. List your items and once they are completed you can click the item once to cross it off and when you are ready you can delete the item off the list.",
       tags:["HTML", "CSS", "JavaScript"],
@@ -61,7 +52,16 @@ export const ProjectData = [
       demo:'https://trivera777.github.io/WhatsTheWeather/',
       github:'https://github.com/trivera777/WhatsTheWeather',
       image:'./assets/weatherapp.png'
-    }
+    },
+    // {
+    //   id: "4",
+    //   title: "Tech Blog",
+    //   about: "This app is a tech blog that allows users to create a profile to be able to create, edit and delete their own blog posts. User is also able to comment on other users posts.",
+    //   tags:["JavaScript", 'Node.js', 'Express.js', 'Handlebars.js', 'MVC', 'MySQL', 'Sequelize'],
+    //   demo:'https://tr-techblog.herokuapp.com/',
+    //   github:'https://github.com/trivera777/TechBlog',
+    //   image:'./assets/techblog.png'
+    // },
     // {
     //   id: "6",
     //   title: "project",
