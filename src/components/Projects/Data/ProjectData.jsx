@@ -56,11 +56,11 @@ export const ProjectData = [
     {
       id: "5",
       title: "Whats the Weather?",
-      about: "this project is about",
+      about: "This application was built using HTM, CSS, and JavaScript to create a fully functional weather app using the Open Weather Map API. ",
       tags:["HTML", "CSS", "JavaScript", "API - Open Weather Map"],
       demo:'https://trivera777.github.io/WhatsTheWeather/',
       github:'https://github.com/trivera777/WhatsTheWeather',
-      image:'img'
+      image:'./assets/weatherapp.png'
     }
     // {
     //   id: "6",
