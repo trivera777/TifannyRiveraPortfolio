@@ -57,7 +57,7 @@ export const ProjectData = [
       id: "5",
       title: "Whats the Weather?",
       about: "this project is about",
-      tags:["ReactJS"],
+      tags:["HTML", "CSS", "JavaScript", "API - Open Weather Map"],
       demo:'https://trivera777.github.io/WhatsTheWeather/',
       github:'https://github.com/trivera777/WhatsTheWeather',
       image:'img'
