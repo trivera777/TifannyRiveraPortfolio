@@ -9,7 +9,7 @@ export const ProjectData = [
     //   image:'./assets/'
     // },
     {
-      id: "2",
+      id: "1",
       title: "Portfolio",
       about: "I had the opportunity to work with my friend and business owner, Jasmin Ponce. Although her clothing site was made with Wix.com, it was an awesome learning experience for my first freelance job.",
       tags: ["HTML", "SASS", "ReactJS", "React Bootstrap"],
@@ -18,7 +18,7 @@ export const ProjectData = [
       image:'./assets/trportfolio.png'
     },
     {
-      id: "3",
+      id: "2",
       title: "Social Buzz",
       about: "This is a mock social media application where user can login and create a username. When the user is signed in they are able to delete their own posts and will have the option to logout.",
       tags:["ReactJS", "React Bootstrap"],
@@ -27,7 +27,7 @@ export const ProjectData = [
       image:'./assets/socialbuzz.png'
     },
     {
-      id: "4",
+      id: "3",
       title: "National Parks Day Trip Planner",
       about: "This National Parks Day Trip Planner helps you plan your next trip to any state in the United States.",
       tags:["HTML", "CSS", "JavaScript", 'JQuery', 'Bulma'],
@@ -36,7 +36,7 @@ export const ProjectData = [
       image:'./assets/np.png'
     },
     {
-      id: "5",
+      id: "4",
       title: "Tech Blog",
       about: "This app is a tech blog that allows users to create a profile to be able to create, edit and delete their own blog posts. User is also able to comment on other users posts.",
       tags:["JavaScript", 'Node.js', 'Express.js', 'Handlebars.js', 'MVC', 'MySQL', 'Sequelize'],
@@ -45,7 +45,7 @@ export const ProjectData = [
       image:'./assets/techblog.png'
     },
     {
-      id: "6",
+      id: "4",
       title: "To Do list",
       about: "This is a simple To-Do List. List your items and once they are completed you can click the item once to cross it off and when you are ready you can delete the item off the list.",
       tags:["HTML", "CSS", "JavaScript"],
@@ -53,17 +53,17 @@ export const ProjectData = [
       github:'https://github.com/trivera777/ToDoList',
       image:'./assets/list.png'
     },
+    {
+      id: "5",
+      title: "Whats the Weather?",
+      about: "this project is about",
+      tags:["ReactJS"],
+      demo:'https://trivera777.github.io/WhatsTheWeather/',
+      github:'https://github.com/trivera777/WhatsTheWeather',
+      image:'img'
+    }
     // {
     //   id: "6",
-    //   title: "project",
-    //   about: "this project is about",
-    //   tags:["ReactJS"],
-    //   demo:'demo',
-    //   github:'github',
-    //   image:'img'
-    // }
-    // {
-    //   id: "7",
     //   title: "project",
     //   about: "this project is about",
     //   tags:["ReactJS"],
