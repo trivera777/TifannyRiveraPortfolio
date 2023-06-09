@@ -17,7 +17,7 @@ export default function Contact(){
                     <Social />
                 </div>
                 <div className="resume">
-                    <a download href="https://docs.google.com/document/d/1QmGmosKB2iWCT3piZTI7rnziVmv2oPVZ/edit?usp=sharing&ouid=109568298851160236684&rtpof=true&sd=true">
+                    <a download href="https://docs.google.com/document/d/1ZnBGGXKPLNVvTubFQWd3CkfnipMIscsDhRBcziEE2ok/edit?usp=sharing">
                     <i className="fi fi-rr-document"></i>
                         view resume
                     </a>
