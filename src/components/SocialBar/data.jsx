@@ -9,9 +9,4 @@ export const SocialData = [
     icon: "./assets/github.png",
     link: "https://github.com/trivera777",
   },
-  {
-    platform: "Instagram",
-    icon: "./assets/instagram.png",
-    link: "https://instagram.com/tifann_y",
-  },
 ];
