@@ -10,3 +10,4 @@ export const SocialData = [
     link: "https://github.com/trivera777",
   },
 ];
+//removed instagram
